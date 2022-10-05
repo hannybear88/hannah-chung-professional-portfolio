@@ -84,6 +84,12 @@ background: stretch; */
 align-items:center;
 justify-content:center;
 flex-direction:column;
+position: relative;
+}
+
+.project1 h3 {
+    position:absolute;
+    background-color: #00000096;
 }
 .project1 img{
 width: 100%;
@@ -110,7 +116,7 @@ height:100%;
 
 .box1 img {
     height: 350px;
-    width: 550px;
+    width: 100%;
     border-style: solid;
     border-width: 20px;
     border-radius: 10px;
@@ -122,7 +128,7 @@ height:100%;
     }
 .box2 img {
     height: 350px;
-    width: 550px;
+    width: 100%;
     border-style: solid;
     border-width: 20px;
     border-radius: 10px;
