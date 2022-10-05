@@ -1,0 +1,83 @@
+*{  box-sizing: border-box;
+    
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0;
+    background:aquamarine
+}
+/* this consists of the nav and header sectionv*/
+header {
+    color: ???
+}
+
+nav {
+    background-color:black
+}
+    .name-nav {
+        color:darkslategray;
+        font-family: Lucida;
+
+/* this is the about me section */
+    }
+    .banner-background {
+    background-image: url(../images/banner-background.jpeg);
+    background-position: center;
+    background-size: cover;
+    max-height:100%;
+    max-width: 100%;
+    margin: 0px;
+    object-fit: fill;
+    }
+
+
+/* this is the project section with boxes */
+#my-work: 
+
+
+
+
+
+.box{
+    opacity: 0.5;
+}
+
+.box:hover {
+    opacity: 1.0;
+}
+
+.box1 {
+    background-image: url(../images/Project1.jpeg);
+    background-repeat: stretch;
+}
+.box2 {
+    background-image: url(../images/project2.jpeg);
+    background-repeat: stretch;
+}.box3{
+    background-image: url(../images/Project3.jpeg);
+    background-repeat: stretch;
+}.box4 {
+    background-image: url(../images/Project4.jpeg);
+    background-repeat: stretch;
+}.box5 {
+    background-image: url(../images/Project5.jpeg);
+    background-repeat: stretch;
+}
+
+/* This is what makes the cards opaque and get darker when you hover over it*/
+.box:hover,
+.box:hover img {
+    box-shadow: inset 0px 0px 15px lightblue, 0 0 25px lightskyblue
+}
+
+.faded 
+{
+    opacity: 0.5;
+    filter: alpha (opacity=50);
+}
+
+.faded:hover
+{opacity: 1.0;
+    filter: alpha (opacity=100);
+}

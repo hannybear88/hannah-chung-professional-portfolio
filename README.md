@@ -1,2 +1,2 @@
-# hannah-chung-professional-portfolio
-HW Challenge #2
+# professional-Portfolio
+Homework Challenge #2
