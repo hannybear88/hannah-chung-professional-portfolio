@@ -1,0 +1,8 @@
+element.style {
+    margin: 0px;
+    background:black;
+    height: 100%;
+}
+body {
+    display: block;
+}
