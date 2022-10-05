@@ -5,15 +5,18 @@
 body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin:0;
-    background:darkgray 
+    background:gray;
 }
 /* this consists of the nav and header sectionv*/
 header {
-    color:lightyellow
+    color:darkgreen;
+    font-size: 10px;
+    font-weight:
 }
 
 nav {
-    background-color: orange
+    background-color: lightblue; 
+   
 }
     .name-nav {
         color:darkslategray;
@@ -76,7 +79,7 @@ nav {
 .project1 {
     /* 
     background-image: url(../images/Project1.jpeg);
-    background: stretch; */
+background: stretch; */
     height: 450px !important;
     display:flex;
 align-items:center;
