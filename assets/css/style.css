@@ -56,48 +56,38 @@ nav {
     height: 300px !important;
 }
 
-.card {
+.box {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: flex-end;
     background-color: none;
     color: none;
-    border-style: solid;
-    border-width: 15px;
-    border-radius: 10px;
+
     padding: 10px;
     margin: 20px;
     height: 200px;
-    transition: all 0.5s ease-in-out;
+    
+
+    
 }
 
 
 
-.box{
-    opacity: 0.5;
-}
-
-.box:hover {
-    opacity: 1.0;
-}
-
-.box1 {
+.project1 {
+    /* 
     background-image: url(../images/Project1.jpeg);
-    background-repeat: stretch;
+    background: stretch; */
+    height: 450px !important;
+    display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
 }
-.box2 {
-    background-image: url(../images/project2.jpeg);
-    background-repeat: stretch;
-}.box3{
-    background-image: url(../images/Project3.jpeg);
-    background-repeat: stretch;
-}.box4 {
-    background-image: url(../images/Project4.jpeg);
-    background-repeat: stretch;
-}.box5 {
-    background-image: url(../images/Project5.jpeg);
-    background-repeat: stretch;
+.project1 img{
+width: 100%;
+height:100%;
 }
+
 
 /* This is what makes the cards opaque and get darker when you hover over it*/
 .box:hover,
@@ -116,4 +106,52 @@ nav {
     filter: alpha (opacity=100);
 }
 
-    
+.box1 img {
+    height: 350px;
+    width: 550px;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    opacity: 0.5;
+}
+.box1 img:hover{
+    opacity:1;
+    }
+.box2 img {
+    height: 350px;
+    width: 550px;
+    border-style: solid;
+    border-width: 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+    opacity: 0.5;
+}
+.box2 img:hover{
+    opacity:1;
+    }
+.box1,.box2 {
+    height:400px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.img-box{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background-image: url("https://cdn4.tropicalsky.co.uk/images/1800x600/lush-coastal-scenery-in-hawaii.jpg");
+height:400px;
+
+}
+figure {
+    margin-top:  -250px;
+}
+figure img {
+    border-radius: 100px;
+}
