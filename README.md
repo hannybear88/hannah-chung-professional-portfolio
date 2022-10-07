@@ -19,8 +19,9 @@ Building a professional portolio was our second homework challenge by using both
 <a href=https://hannybear88.github.io/hannah-chung-professional-portfolio/>Click here</a> to be directed straight to the deployed application
 
 <img src="./assets/images/hannah-chung-professional-portfolio-screenshot.png" /> 
+
 ## Support
-If you need extra support feel free to  <a href="#hannahkchung88@gmail.com"><i class="fa fa-envelope" style="font-size:48px;color:green">emailme</i></a>
+If you need extra support feel free to  <a href="#hannahkchung88@gmail.com">emailme</a>
 
 ## Credits
 Hannah Chung
