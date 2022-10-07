@@ -309,6 +309,7 @@ margin:30px;
     flex-grow: 0;     /* do not grow   - initial value: 0 */
     flex-shrink: 0;   /* do not shrink - initial value: 1 */
     flex-basis: 300px;
+    width:300px;
     margin:30px;
     border-right:4px solid white;
     align-self: stretch;
