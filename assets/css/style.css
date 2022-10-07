@@ -6,7 +6,7 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
-    background: gray;
+    background: rgb(0, 84, 120);
 }
 
 /* this consists of the nav and header sectionv*/
@@ -80,7 +80,9 @@ nav {
 
 
 .project1 {
-  
+    /* 
+    background-image: url(../images/Project1.jpeg);
+background: stretch; */
 
     display: flex;
     align-items: center;
@@ -132,8 +134,8 @@ nav {
 }
 
 .box2 img {
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 700px;
     border-style: solid;
     border-width: 20px;
     border-radius: 10px;
@@ -159,7 +161,13 @@ nav {
     align-items: center;
     justify-content: center;
 }
+/*
+header {
+    background-image: url("https://cdn4.tropicalsky.co.uk/images/1800x600/lush-coastal-scenery-in-hawaii.jpg");
+    height: 400px;
 
+}
+*/
 header{
     display:flex;
     align-items: center;
@@ -211,18 +219,16 @@ header{
     text-decoration: underline;
   }
   body{
-    background-color: rgb(126, 126, 126);
+    background-color: rgb(86, 110, 108);
   }
 .banner{
     background-image: url("https://cdn4.tropicalsky.co.uk/images/1800x600/lush-coastal-scenery-in-hawaii.jpg");
+    background-size:cover;
     height: 400px;
     display:flex;
     align-items: flex-end;
     justify-content: flex-end;
 }
-
-/* Quotes */
-
 .quote{
   padding:15px;
   color:white;
@@ -266,7 +272,6 @@ text-align:center;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 }
-/* contact me */
 .contacts-links{
     display:flex;
     align-items:center;
@@ -274,7 +279,11 @@ border-top-right-radius: 20px;
     width:100%;
 }
 .img-box{
-margin:50px;
+margin:30px;
+}
+.box2{
+    margin-top:30px;
+    margin-bottom: 30px;
 }
 
 .small-screen{
@@ -289,16 +298,43 @@ margin:50px;
 .box1,.box2,.project1{
     width:100% ;
 }
-.right-section{
-    padding:50px;
-    margin-right:50px;
-    margin-left:50px;
+.contacts-links{
+    height:200px;
 }
-
-
-/* this will make it so that my portfolio will be usable for both mobile and tablets devices */
+.left{
+    flex-grow: 0;     /* do not grow   - initial value: 0 */
+    flex-shrink: 0;   /* do not shrink - initial value: 1 */
+    flex-basis: 300px;
+    margin:30px;
+    border-right:4px solid white;
+    align-self: stretch;
+}
+.left h3{
+    text-decoration: underline;
+    color:white;
+}
+.div1,.div2,.div3{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.navbar-box{
+    display:none;
+}
 @media(max-width:780px){
+ 
+    .left{
+        display:none;
+    }
+   figure{
+    width:100%;
+      margin:20px;
 
+   }
+   figure img{
+    display:block;
+    margin:auto;
+   }
    header{
     flex-direction: column-reverse;
     height:120px;
@@ -310,16 +346,16 @@ margin:50px;
 .banner{
     background-image: url("https://prtimes.jp/i/42262/81/resize/d42262-81-686566-0.jpg");
 
+    /*
+     align-items:flex-end;
+     justify-content:flex-end;
+    */
     align-items: center;
     justify-content: center;
 }
 
-
-.left-section{
-    display:none;
-}
-.right-section{
-    width:90%;
+.quote{
+    margin:50px;
 }
  
  .project1 img{
@@ -341,15 +377,23 @@ main{
     padding:50px;
 }
 }
-@media(max-width:600px){
 
+
+@media(max-width:600px){
   /*navbar menu */
-  .project1{
-  
-    width:100%;
-  
-    
- }
+
+  .navbar-box{
+    display:block;
+    position: fixed;
+    left:20px;
+    top:10px;
+    z-index:1000;
+    height:50px;
+    width:50px;
+    border-radius:15px;
+    border:2px solid white;
+    background-color: rgba(0,0,0,0.5);
+}
   .img-box img{
     width:100%;
   }
@@ -357,23 +401,14 @@ main{
     width:100%;
   }
   main{
-    padding:2px;
+    padding:50px;
   }
   .img-box{
     margin:3px;
     }
-    main{
-        width:100%;
+    header{
+      height:fit-content
     }
-  .right-section{
-    padding:3px;
-  }
-  .right-section{
-    width:100%;
-  }
-}
-@media(max-width:1000px){
-    .left-section{
-        display:none;
-    }
+ 
+  
 }
