@@ -91,8 +91,9 @@ background: stretch; */
 }
 
 .project1 img {
-    width: 100%;
+   width:85%;
     height: 100%;
+    
 }
 
 /* This is what makes the boxes opaque and get darker when you hover over it*/
@@ -135,7 +136,7 @@ background: stretch; */
 
 .box2 img {
     height: 400px;
-    width: 700px;
+    width: 550px;
     border-style: solid;
     border-width: 20px;
     border-radius: 10px;
@@ -272,6 +273,9 @@ text-align:center;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 }
+.project1 h3{
+    width:70%;
+}
 .contacts-links{
     display:flex;
     align-items:center;
@@ -322,7 +326,10 @@ margin:30px;
     display:none;
 }
 @media(max-width:780px){
- 
+   
+ .project1 h3{
+    width:100%;
+ }
     .left{
         display:none;
     }
@@ -373,8 +380,17 @@ margin:30px;
   flex-direction: column;
   height:fit-content;
 }
-main{
+#AboutMe{
+    margin:40px;
     padding:50px;
+    
+}
+body{
+    background-color: red;
+}
+.project1 ,.box2{
+    width:80%;
+    margin:auto;
 }
 }
 
@@ -382,33 +398,26 @@ main{
 @media(max-width:600px){
   /*navbar menu */
 
-  .navbar-box{
-    display:block;
-    position: fixed;
-    left:20px;
-    top:10px;
-    z-index:1000;
-    height:50px;
-    width:50px;
-    border-radius:15px;
-    border:2px solid white;
-    background-color: rgba(0,0,0,0.5);
-}
+
   .img-box img{
     width:100%;
   }
   .img-box{
     width:100%;
   }
-  main{
-    padding:50px;
-  }
+ 
   .img-box{
     margin:3px;
     }
     header{
       height:fit-content
     }
- 
+    .project1 ,.box2{
+        width:100%;
+        margin:auto;
+    }
+    #AboutMe{
+        padding:0px;
+    }
   
 }
