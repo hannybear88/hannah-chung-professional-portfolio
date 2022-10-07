@@ -80,9 +80,7 @@ nav {
 
 
 .project1 {
-    /* 
-    background-image: url(../images/Project1.jpeg);
-background: stretch; */
+  
 
     display: flex;
     align-items: center;
@@ -161,13 +159,7 @@ background: stretch; */
     align-items: center;
     justify-content: center;
 }
-/*
-header {
-    background-image: url("https://cdn4.tropicalsky.co.uk/images/1800x600/lush-coastal-scenery-in-hawaii.jpg");
-    height: 400px;
 
-}
-*/
 header{
     display:flex;
     align-items: center;
@@ -228,6 +220,9 @@ header{
     align-items: flex-end;
     justify-content: flex-end;
 }
+
+/* Quotes */
+
 .quote{
   padding:15px;
   color:white;
@@ -271,6 +266,7 @@ text-align:center;
 border-top-left-radius: 20px;
 border-top-right-radius: 20px;
 }
+/* contact me */
 .contacts-links{
     display:flex;
     align-items:center;
@@ -299,6 +295,8 @@ margin:50px;
     margin-left:50px;
 }
 
+
+/* this will make it so that my portfolio will be usable for both mobile and tablets devices */
 @media(max-width:780px){
 
    header{
@@ -312,10 +310,6 @@ margin:50px;
 .banner{
     background-image: url("https://prtimes.jp/i/42262/81/resize/d42262-81-686566-0.jpg");
 
-    /*
-     align-items:flex-end;
-     justify-content:flex-end;
-    */
     align-items: center;
     justify-content: center;
 }
@@ -348,6 +342,7 @@ main{
 }
 }
 @media(max-width:600px){
+
   /*navbar menu */
   .project1{
   
