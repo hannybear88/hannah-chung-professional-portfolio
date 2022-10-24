@@ -21,7 +21,7 @@ Building a professional portolio was our second homework challenge by using both
 <img src="./assets/images/hannah-chung-professional-portfolio-screenshot.png" /> 
 
 ## Support
-If you need extra support feel free to <a href="mailto:hannahkchung@gmail.com">email me</a>
+If you need extra support feel free to <a href="mailto:hannahkchung88@gmail.com">email me</a>
 
 
 ## Credits
