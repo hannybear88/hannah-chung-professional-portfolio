@@ -303,17 +303,21 @@ margin:10px;
     height:400px;
 }
 .left{
-    flex-grow: 0;     /* do not grow   - initial value: 0 */
-    flex-shrink: 0;   /* do not shrink - initial value: 1 */
-    flex-basis: 200px;
-    margin:20px;
+    flex-grow: 0;  
+       /* do not grow   - initial value: 0 */
+    flex-shrink: 0;   
+    /* do not shrink - initial value: 1 */
+     flex-basis: 200px;
+   margin:20px;
     border-right:4px solid white;
     align-self: stretch;
-}
+}  
+
 .left h3{
     text-decoration: underline;
     color:white;
 }
+
 .div1,.div2,.div3{
     display: flex;
     align-items: flex-start;
@@ -324,129 +328,128 @@ margin:10px;
 }
 @media(max-width:780px){
    
- .project1 h3{
-    width:100%;
- }
-    .left{
-        display:none;
+    .project1 h3{
+       width:100%;
     }
-   figure{
-    width:100%;
-      margin:20px;
-
+       .left{
+           display:none;
+       }
+      figure{
+       width:100%;
+         margin:20px;
+   
+      }
+      figure img{
+       display:block;
+       margin:auto;
+      }
+      header{
+       flex-direction: column-reverse;
+       height:120px;
+      }
+      header nav{
+       align-self: stretch;
+       width:100%;
+      }
+   .banner{
+       background-image: url("https://prtimes.jp/i/42262/81/resize/d42262-81-686566-0.jpg");
+   
+       /*
+        align-items:flex-end;
+        justify-content:flex-end;
+       */
+       align-items: center;
+       justify-content: center;
    }
-   figure img{
-    display:block;
-    margin:auto;
+   
+   .quote{
+       margin:50px;
    }
-   header{
-    flex-direction: column-reverse;
-    height:120px;
-   }
-   header nav{
-    align-self: stretch;
-    width:100%;
-   }
-.banner{
-    background-image: url("https://prtimes.jp/i/42262/81/resize/d42262-81-686566-0.jpg");
-
-    /*
-     align-items:flex-end;
-     justify-content:flex-end;
-    */
-    align-items: center;
-    justify-content: center;
-}
-
-.quote{
-    margin:50px;
-}
- 
- .project1 img{
-    width:100%;
-    height:100%;
- }
-.small-screen{
-    display:block;
-} 
-.big-screen{
-    display:none;
-} 
-.box1,
-.box2 {
-  flex-direction: column;
-  height:fit-content;
-}
-#AboutMe{
-    margin:40px;
-    padding:50px;
     
-}
-
-.project1 ,.box2{
-    width:80%;
-    margin:auto;
-}
-}
-
-
-@media(max-width:600px){
-  /*navbar menu */
-    
-  .projects h3{
-     width:100%;
-  }
-  .img-box img{
-    width:100%;
-  }
-  .img-box{
-    width:90%;
-  }
- 
-  .img-box{
-    margin:3px;
+    .project1 img{
+       width:100%;
+       height:100%;
     }
-    header{
-      height:fit-content
-    }
-    .project1 ,.box2{
-        width:97%;
-        margin:auto;
-    }
-    #AboutMe{
-        padding:0px;
-    }
-    .projects{
+   .small-screen{
+       display:block;
+   } 
+   .big-screen{
+       display:none;
+   } 
+   .box1,
+   .box2 {
+     flex-direction: column;
+     height:fit-content;
+   }
+   #AboutMe{
+       margin:40px;
+       padding:50px;
+       
+   }
+   
+   .project1 ,.box2{
+       width:80%;
+       margin:auto;
+   }
+   }
+   
+   
+   @media(max-width:600px){
+     /*navbar menu */
+       
+     .projects h3{
         width:100%;
-    }
-    .left{
-        width:0;
-    }
-  
-}
-.banner{
-    width:100%;
-}
-figure{
-    width:100%;
-}
-#AboutMe{
-    width:100%;
-}
-.div1,.div2,.div3{
-    width:80%;
-    margin:auto;
-}
-
-.left{
-    width:0;
-}
-.projects div {
-    width:100%;
+     }
+     .img-box img{
+       width:100%;
+     }
+     .img-box{
+       width:90%;
+     }
     
-}
-.projects{
-    margin:auto;
-    
-}
-
+     .img-box{
+       margin:3px;
+       }
+       header{
+         height:fit-content
+       }
+       .project1 ,.box2{
+           width:97%;
+           margin:auto;
+       }
+       #AboutMe{
+           padding:0px;
+       }
+       .projects{
+           width:100%;
+       }
+       .left{
+           width:0;
+       }
+     
+   }
+   .banner{
+       width:100%;
+   }
+   figure{
+       width:100%;
+   }
+   #AboutMe{
+       width:100%;
+   }
+   .div1,.div2,.div3{
+       width:80%;
+       margin:auto;
+   }
+   
+   .left{
+       width:0;
+   }
+   .projects div {
+       width:100%;
+       
+   }
+   .projects{
+       margin:auto;
+       
+   }
